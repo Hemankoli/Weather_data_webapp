@@ -1,0 +1,45 @@
+
+.forecast-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-color: #007BFF;
+
+  }
+  
+  .forecast-day {
+    border-radius: 10px;
+    border-color: #007BFF;
+    box-shadow: 0px 3px 6px rgb(171, 129, 207);
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .forecast-day h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-day img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-day p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .forecast-day p:last-of-type {
+    font-weight: bold;
+    color: #007BFF;
+  }

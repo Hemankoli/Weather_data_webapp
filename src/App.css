@@ -1,0 +1,61 @@
+/* General Styling for the App */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  max-width: 1200px;
+  height: 90vh;
+  margin: 20px auto;
+
+}
+
+/* Styling for the Unit Toggle Buttons */
+.unit-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.unit-toggle button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.unit-toggle button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.unit-toggle button:active {
+  transform: scale(0.95);
+}
+
+/* Styling for the Error Message */
+.error {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #ffe6e6;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .unit-toggle {
+    flex-direction: row;
+  }
+
+  .unit-toggle button {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
