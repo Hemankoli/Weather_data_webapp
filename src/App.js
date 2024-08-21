@@ -5,6 +5,7 @@ import WeatherCard from './components/WeatherCard';
 import ForecastCard from './components/ForecastCard';
 import SearchBar from './components/SearchBar';
 
+//Key Api
 const API_KEY = '43be1426e31b507dd3c409f47402935e';
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
 
   const handleSearch = async (city) => {
     try {
+      // weather api
       const weatherResponse = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
       );
-
+      // forecast api
       const forecastResponse = await axios.get(
         `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`
       );
