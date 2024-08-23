@@ -22,13 +22,13 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #007BFF;
+  background-color: rgb(169, 83, 255);
   color: white;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .unit-toggle button:hover {
-  background-color: #0056b3;
+  background-color: rgb(200, 90, 255);
   transform: scale(1.05);
 }
 
