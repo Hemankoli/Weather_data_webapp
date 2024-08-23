@@ -5,7 +5,7 @@
   padding: 20px;
   max-width: 300px;
   max-height: 300px;
-  margin: 20px auto;
+  margin: 40px auto;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   border: 2px solid transparent;
@@ -13,9 +13,9 @@
 }
 
 .weather-card:hover {
-  transform: translateY(-10px);
+  transform: scale(1.1);
   box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.2);
-  border-color: #007BFF;
+  border-color: rgb(200, 90, 255);
 }
 
 .weather-card h2 {
@@ -27,7 +27,7 @@
 }
 
 .weather-card:hover h2 {
-  color: #d11a1a;
+  color: #ff5757;
 }
 
 .weather-card img {
@@ -51,11 +51,11 @@
 .weather-card p:first-of-type {
   font-weight: bold;
   font-size: 20px;
-  color: #007BFF;
+  color: rgb(200, 90, 255);
 }
 
 .weather-card:hover p:first-of-type {
-  color: #0056b3;
+  color: rgb(200, 90, 255);
 }
 
 .weather-card p:nth-of-type(2) {
